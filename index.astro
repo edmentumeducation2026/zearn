@@ -1,0 +1,19 @@
+---
+import ProxyShell from "../ProxyShell.{{COMPONENT_EXT}}";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>{{PROJECT_TITLE}}</title>
+		<meta name="robots" content="noindex" />
+<!--#if bootstrap -->
+		<script is:inline src="/bootstrap-init.js"></script>
+<!--#endif -->
+	</head>
+	<body>
+		<ProxyShell client:load />
+	</body>
+</html>
